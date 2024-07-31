@@ -12,8 +12,6 @@ FT 入口：
 
 dynamic_decoder_layer 中 forward（logits, output_ids) -> 由beamwidth取值进入不同函数：
 
-![image](https://github.com/user-attachments/assets/df073494-b88f-4af7-9e29-514fcd492014)
-
 sample层位置：
 LMHead(linear) -> topk -> FusedSoftmaxAndSampling -> Output_token_ids
 
